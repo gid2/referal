@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #55CE00 0%, #014D1D 100%);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(180deg, #63FF70 0%, #017A3D 100%);
+  }
+
+  &:active {
+    background: linear-gradient(180deg, #017A3D 0%, #63FF70 100%);
+    transform: scale(0.98);
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+}
